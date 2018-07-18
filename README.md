@@ -8,6 +8,7 @@ Highlights:
 
 #### How to use ?
 In your docker-compose file just pull this image and bind source code of your project to `/app` in container.
+> Image can be pulled from DockerHub with `docker pull vivifyideas/php-fpm-dev`
 
 # DO NOT USE THIS IMAGE IN PRODUCTION
 > In case that you want to use this image in production, please remove or override `custom.ini`
